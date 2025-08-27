@@ -24,7 +24,7 @@ Follow these steps:
 
 
 # Step 1: Clone the repository using the project's Git URL.
-git clone https://github.com/mmuthupandi/wellbeing-buddy-tamil/tree/main
+git clone https://github.com/mmuthupandi/wellbeing-buddy-tamil
 
 # Step 2: Install the necessary dependencies.
 npm i
