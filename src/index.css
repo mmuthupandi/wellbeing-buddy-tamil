@@ -8,33 +8,52 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 210 20% 98%;
+    --foreground: 215 25% 27%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 215 25% 27%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 215 25% 27%;
 
-    --primary: 222.2 47.4% 11.2%;
+    --primary: 202 83% 41%;
     --primary-foreground: 210 40% 98%;
+    --primary-glow: 202 83% 51%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 142 71% 45%;
+    --secondary-foreground: 210 40% 98%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 199 89% 48%;
+    --accent-foreground: 210 40% 98%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
+    --therapeutic: 174 62% 47%;
+    --therapeutic-light: 174 62% 57%;
+    --calm: 201 96% 32%;
+    --warm: 45 93% 58%;
+    --emergency: 0 84.2% 60.2%;
+
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
+    --gradient-therapeutic: linear-gradient(135deg, hsl(var(--therapeutic)), hsl(var(--therapeutic-light)));
+    --gradient-calm: linear-gradient(180deg, hsl(var(--background)), hsl(210 30% 94%));
+    --gradient-chat: linear-gradient(135deg, hsl(var(--primary) / 0.05), hsl(var(--therapeutic) / 0.05));
+
+    --shadow-soft: 0 4px 6px -1px hsl(var(--primary) / 0.1), 0 2px 4px -1px hsl(var(--primary) / 0.06);
+    --shadow-therapeutic: 0 8px 25px -5px hsl(var(--therapeutic) / 0.3);
+    --shadow-glow: 0 0 40px hsl(var(--primary-glow) / 0.3);
+
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 202 83% 41%;
 
     --radius: 0.5rem;
 
